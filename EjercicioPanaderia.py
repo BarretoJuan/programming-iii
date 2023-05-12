@@ -5,6 +5,13 @@
 # realizar un sistema de ventas donde se incluya el iva y el total
 # solamente usando la condicion if
 
+# Para este programa se iniciará mostrando el inventario actual, se pedirá al usuario ingresar 
+# el precio de cada articulo y la cantidad de ventas de cada articulo a registrar
+# se verificará si la cantidad a registrar sobrepasa al stock actual.
+# Finalmente se mostrará el precio sin IVA, el monto del IVA y el precio con IVA, junto con un  resumen del 
+# inventario restante
+
+
 #Inventario disponible
 print("**DISPONIBILIDAD ACTUAL DE INVENTARIO**")
 print("Pan Frances: 1000 unidades")

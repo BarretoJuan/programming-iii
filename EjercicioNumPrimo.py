@@ -1,4 +1,6 @@
-
+#El siguiente programa se encarga de recibir el input de un usuario y determinar
+# si ese input representa o no un numero primo
+# para la realizacion de este programa solo se utilizaran condicionales if
 
 num = int(input("Ingrese un numero para determinar si es o no un numero primo: "))
 
