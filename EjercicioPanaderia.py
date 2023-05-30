@@ -1,3 +1,5 @@
+# # JUAN BARRETO 31106376 
+# PROGRAMACION 3 N-613 
 #en una panaderia se elaboran 4000 panes diarios, de los cuales 1000 
 #son panes franceses, otros 1000 son panes dulces, 500 son 
 # panes de perros calientes, otros 500 son panes de hamburguesa

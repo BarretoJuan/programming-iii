@@ -1,29 +1,9 @@
-# el ciclo for
-# TAREA AÑADIR AL EJERCICIO DE LA PANADERIA, PARA AÑADIR UN DESCUENTO SEGUN PAIS
-# 
-# 
-# 
-# 
+# # JUAN BARRETO 31106376 
+# PROGRAMACION 3 N-613 
+#Se pregunta al usuario por un pais de america, y si existe, se muestra su capital
 
-# for i in range(1,50):
-#         print("hola numero ",i )
-
-
-# 
-# myarray = [1,7,3,9]
- 
-# test = list("4555")hola
-# print(test)
-# mrarray = range(1,10)
-
-
-# help(object)
-
-# for i in mrarray:
-#         print("hola... ", i)
-
-
-paisesYCapitales = {
+#diccionario de paises
+paises = {
                     "Antigua y Barbuda":"St John",
                     "Argentina": "Buenos Aires",
                     "Bahamas":"Nassau",
@@ -60,19 +40,19 @@ paisesYCapitales = {
                     "Uruguay":"Montevideo",
                     "Venezuela":"Caracas",
                     }
-
+#entrada del pais
 paisInput = str(input("Ingrese un pais de america: "))
 paisExiste=0
 
-
+#for para determinar si el pais existe
 for i in paises:
     if (paisInput == i):
         paisExiste=paisExiste+1
       
- 
+ #salida de datos
 if(paisExiste==1):
     print("El pais ",paisInput," Sí existe en America y su capital es:",
-           paisesYCapitales[paisInput])
+           paises[paisInput])
 
 else:
     print("El pais ",paisInput," No existe en America")
