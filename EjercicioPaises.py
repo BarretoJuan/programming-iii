@@ -56,3 +56,5 @@ if(paisExiste==1):
 
 else:
     print("El pais ",paisInput," No existe en America")
+
+doNotEnd=input(" ")
