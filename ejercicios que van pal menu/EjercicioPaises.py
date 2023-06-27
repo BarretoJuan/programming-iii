@@ -46,6 +46,9 @@ paisExiste=0
 
 #for para determinar si el pais existe
 for i in paises:
+    print("I : ",i)
+    print("Dict : ", paises)
+    print("capital : ", paises[i])
     if (paisInput == i):
         paisExiste=paisExiste+1
       
