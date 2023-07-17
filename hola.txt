@@ -1,0 +1,13 @@
+ cedula = input("Ingrese la cedula del nuevo estudiante: ")
+        cursor.execute ("SELECT * FROM estudiante WHERE cedula = %s", (cedula,))
+        existe = cursor.fetchone()
+        while existe or (not cedula.isdigit() or len(cedula) > 12):
+            cursor.execute ("SELECT * FROM estudiante WHERE cedula = %s", (cedula,))
+            existe = cursor.fetchone()
+            if existe:
+                print("Esta cedula ya está registrada con otro usuario")
+                cedula = input("Ingrese la cedula del nuevo estudiante: ")
+            while not cedula.isdigit() or len(cedula) > 12:
+                print("La cedula debe ser un número entero y no debe exceder los 12 dígitos.")
+                cedula = input("Ingrese la cedula del nuevo estudiante: ")
+                existe = True
